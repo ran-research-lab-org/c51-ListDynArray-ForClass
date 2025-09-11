@@ -13,6 +13,12 @@ private:
     int size;
     int cap;
 public:
+
+List();
+
+int getSize() const;
+
+void insert(int val, int pos);
 };
 
 #endif

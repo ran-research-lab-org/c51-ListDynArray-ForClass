@@ -37,7 +37,7 @@ void List::insert(int val, int pos){
     {
         a[i+1] = a[i];
     }
-
+    a[pos] = val;
     size++;
 
 
